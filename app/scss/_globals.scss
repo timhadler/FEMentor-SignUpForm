@@ -31,14 +31,20 @@ body {
 }
 
 .desktopColumn {
-    padding: 50% 5px;
+    padding: 50% 15px;
+}
 
-    display: flex;
+.text-a-c {
     text-align: center;
 }
 
 .col_2_container {
     width: 100%;
+}
+
+.mainHeader {
+    font-weight: 800;
+    font-size: 38px;
 }
 
 .freeTrialButton {
