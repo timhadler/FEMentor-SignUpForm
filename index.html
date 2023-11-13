@@ -38,15 +38,15 @@
       <button class="__freeTrialButton">
         <span style="font-weight: 600;">Try it free 7 days </span> then $20/mo. thereafter
       </button>
-      <form>
+      <form id="form">
         <div class="formContainer">
-          <input type="text" name="firstName" placeholder="First Name">
+          <input id="fNameInput" type="text" name="firstName" placeholder="First Name">
           <span id="firstNameErr" class="errorMessage"> First Name cannot be empty </span>
-          <input type="text" name="lastName" placeholder="Last Name ">
+          <input id="lNameInput" type="text" name="lastName" placeholder="Last Name ">
           <span id="lastNameErr" class="errorMessage"> Last Name cannot be empty </span>
-          <input type="email" name="email" placeholder="Email Address">
+          <input id="emailInput" type="email" name="email" placeholder="Email Address">
           <span id="emailErr" class="errorMessage"> Looks like this is not an email </span>
-          <input type="password" name="password" placeholder="Password">
+          <input id="passwordInput" type="password" name="password" placeholder="Password">
           <span id="passwordErr" class="errorMessage"> Password cannot be empty </span>
 
           <button id="submitButton" type="button" class="__formSubmit"> Claim your free trial </button>

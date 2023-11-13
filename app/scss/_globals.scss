@@ -146,3 +146,8 @@ input[type="text"]:focus {
     color: $primaryRed;
     margin-top: 8px;
 }
+
+.errorDisplay {
+    border: 2px solid $primaryRed !important;
+    color: $primaryRed !important;
+}
