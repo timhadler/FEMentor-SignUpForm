@@ -52,7 +52,7 @@ button.__formSubmit:hover {
   opacity: 0.5;
 }
 
-input[type=text] {
+input[type=text], input[type=email], input[type=password] {
   width: 100%;
   padding-left: 24px;
   padding-top: 14px;
