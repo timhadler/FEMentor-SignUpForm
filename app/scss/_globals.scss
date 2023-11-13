@@ -36,18 +36,19 @@ button {
     text-align: center;
 
     &.__freeTrialButton {
-        height: 58px;
+        height: 48px;
         background-color: $accentBlue;
         box-shadow: 1px 5px rgba(0, 0, 0, 0.2);
         margin-bottom: 24px;
     }
 
     &.__formSubmit {
-        height: 50px;
+        height: 40px;
         background-color: $primaryGreen;
         text-transform: uppercase;
         font-weight: 500;
         box-shadow: 1px 5px rgba(62, 179, 127);
+        margin-top: 18px;
         margin-bottom: 16px;
         cursor: pointer;
     }
@@ -67,7 +68,11 @@ input[type="text"], input[type="email"], input[type="password"] {
     color: gray;
     border: 1px solid lightgray;
     border-radius: 4px;
-    margin-bottom: 18px;
+    //margin-bottom: 18px;
+}
+
+input:not(:first-child) {
+    margin-top: 18px;
 }
 
 input[type="text"]:focus {
@@ -100,7 +105,7 @@ input[type="text"]:focus {
 }
 
 .formColumn {
-    padding-top: 50px;
+    padding-top: 60px;
 }
 
 .col_2_container {
@@ -114,8 +119,8 @@ input[type="text"]:focus {
 }
 
 .formContainer {
-    padding: 36px;
-    padding-bottom: 40px;
+    padding: 26px;
+    //padding-bottom: 40px;
     border-radius: $borderRadius;
     background-color: white;
     box-shadow: 0 5px rgba(0, 0, 0, 0.2);
@@ -130,4 +135,14 @@ input[type="text"]:focus {
         font-weight: 700;
         color: $primaryRed;
     }
+}
+
+.errorMessage {
+    display: none;
+    float: right;
+    font-size: $sizeVerySmall;
+    font-weight: 500;
+    font-style: italic;
+    color: $primaryRed;
+    margin-top: 8px;
 }

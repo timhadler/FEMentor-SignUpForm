@@ -41,23 +41,28 @@
       <form>
         <div class="formContainer">
           <input type="text" name="firstName" placeholder="First Name">
+          <span id="firstNameErr" class="errorMessage"> First Name cannot be empty </span>
           <input type="text" name="lastName" placeholder="Last Name ">
+          <span id="lastNameErr" class="errorMessage"> Last Name cannot be empty </span>
           <input type="email" name="email" placeholder="Email Address">
+          <span id="emailErr" class="errorMessage"> Looks like this is not an email </span>
           <input type="password" name="password" placeholder="Password">
+          <span id="passwordErr" class="errorMessage"> Password cannot be empty </span>
 
-          <button type="submit" class="__formSubmit"> Claim your free trial </button>
+          <button id="submitButton" type="button" class="__formSubmit"> Claim your free trial </button>
           <div class="terms"> By clicking the button, you are agreeing to our 
             <span class="terms__highlight"> Terms and Services </span> </div>
         </div>
       </form>    
     </div>
   </div>
-  
+  <!--
   <footer class="grid_col_1_s2" style="margin-top: 20px;">
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
       Coded by <a href="#">Tim Hadler</a>.
     </p>
   </footer>
+  -->
 </body>
 </html>

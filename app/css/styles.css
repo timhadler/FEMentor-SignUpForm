@@ -34,17 +34,18 @@ button {
   text-align: center;
 }
 button.__freeTrialButton {
-  height: 58px;
+  height: 48px;
   background-color: hsl(248, 32%, 49%);
   box-shadow: 1px 5px rgba(0, 0, 0, 0.2);
   margin-bottom: 24px;
 }
 button.__formSubmit {
-  height: 50px;
+  height: 40px;
   background-color: hsl(154, 59%, 51%);
   text-transform: uppercase;
   font-weight: 500;
   box-shadow: 1px 5px rgb(62, 179, 127);
+  margin-top: 18px;
   margin-bottom: 16px;
   cursor: pointer;
 }
@@ -62,7 +63,10 @@ input[type=text], input[type=email], input[type=password] {
   color: gray;
   border: 1px solid lightgray;
   border-radius: 4px;
-  margin-bottom: 18px;
+}
+
+input:not(:first-child) {
+  margin-top: 18px;
 }
 
 input[type=text]:focus {
@@ -93,7 +97,7 @@ input[type=text]:focus {
 }
 
 .formColumn {
-  padding-top: 50px;
+  padding-top: 60px;
 }
 
 .col_2_container {
@@ -107,8 +111,7 @@ input[type=text]:focus {
 }
 
 .formContainer {
-  padding: 36px;
-  padding-bottom: 40px;
+  padding: 26px;
   border-radius: 8px;
   background-color: white;
   box-shadow: 0 5px rgba(0, 0, 0, 0.2);
@@ -122,6 +125,16 @@ input[type=text]:focus {
 .terms__highlight {
   font-weight: 700;
   color: hsl(0, 100%, 74%);
+}
+
+.errorMessage {
+  display: none;
+  float: right;
+  font-size: 9px;
+  font-weight: 500;
+  font-style: italic;
+  color: hsl(0, 100%, 74%);
+  margin-top: 8px;
 }
 
 /*# sourceMappingURL=styles.css.map */

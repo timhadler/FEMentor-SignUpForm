@@ -1,3 +1,7 @@
 $(document).ready(function() {
-    console.log("Hello World!")
+    $("#submitButton").on('click', function () { submitForm() });
 });
+
+function submitForm() {
+    console.log("Pressed!")
+}
